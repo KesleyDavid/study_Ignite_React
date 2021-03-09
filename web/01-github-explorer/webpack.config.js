@@ -31,6 +31,11 @@ module.exports = {
         // \ => antes do ponto -> o ponto indiga qualquer caracter, mas queremos o ponto (.)
         exclude: /node_modules/,
         use: 'babel-loader',
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: ['style-loader','css-loader'],
       }
     ]
   }
