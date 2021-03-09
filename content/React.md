@@ -40,3 +40,16 @@
   }
   ```
   
+> Javascript  
+
+- .?
+- ?
+- &&
+
+> Array  
+
+- [1,2,3,false]
+  ```jsx
+  // Filtrar false/true
+  [1,2,3,false].filter(Boolean)
+  ```
