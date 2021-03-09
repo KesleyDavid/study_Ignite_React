@@ -11,3 +11,9 @@ yarn babel src/index.jsx --out-file dist/bundle.js
 ```bash
 yarn webpack
 ```
+
+> Webpack Serve
+
+```bash
+yarn webpack serve
+```
