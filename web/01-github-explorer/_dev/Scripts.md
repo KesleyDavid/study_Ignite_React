@@ -17,3 +17,15 @@ yarn webpack
 ```bash
 yarn webpack serve
 ```
+
+> Development
+
+```bash
+yarn dev
+```
+
+> Production (build)
+
+```bash
+yarn build
+```
