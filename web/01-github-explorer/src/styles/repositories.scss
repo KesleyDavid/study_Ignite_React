@@ -1,0 +1,36 @@
+section.repository-list {
+  margin: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      & + li {
+        // Toda li que sempre antes tem um li ela dará o margin-top
+        margin-top: 20px;
+      }
+      // margin-bottom: 20px;
+      // Retira espaço do ultimo
+      // &:last-child {
+      //   margin: 0;
+      // }
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block; // inline que permite margin 
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+      }
+    }
+  }
+}
