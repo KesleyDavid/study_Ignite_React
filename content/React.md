@@ -1,5 +1,25 @@
 # React
 
+> Conceitos  
+
+- State [tmp]
+- Component [tmp]
+- Propriedades [tmp]
+- Imutabilidade  
+  Uma variavel nunca pode ter seu valor alterado  
+  Sempre irá receber um novo valor
+  ```jsx
+    // Simples
+    // Alterando uma informação na memória (mutação no valor original)
+    usuarios = ['kesley','david'];
+    usuarios.push('ferreira');
+
+    // Imutabilidade
+    // Programação Funcional
+    // Sempre se cria um novo espaço na memória com novo conteudo
+    usuarios = [...usuarios, 'ferreira'];
+  ```
+
 > Novo Projeto  
 
 - Criar package.json
@@ -19,3 +39,4 @@
     // Similar => ./src/index.jsx
   }
   ```
+  
