@@ -27,6 +27,26 @@
   yarn init -y
   ```
 
+> React Hooks
+
+- useState [tmp]
+- useEffect
+  Dispara uma função quando algo acontecer em nossa aplicação
+  Ex.: Variavel mudou 
+  ```jsx
+  // Executa sempre que a variavel "repositories" for alterada
+  useEffect(() => {
+    console.log(repositories);
+  }, [repositories]);
+  ```
+  ```jsx
+  // Executa na inicialização do sistema uma única vez quando comonente é exibido em tela
+  useEffect(() => {
+    console.log(repositories);
+  }, []);
+  ```
+
+
 > Recursos  
 
 - Diretórios
@@ -42,9 +62,9 @@
   
 > Javascript  
 
-- .?
-- ?
-- &&
+- .? [tmp]
+- ? [tmp]
+- && [tmp]
 
 > Array  
 
