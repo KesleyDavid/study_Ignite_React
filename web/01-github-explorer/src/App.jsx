@@ -1,8 +1,6 @@
+import { RepositoryList } from './components/RepositoryList';
 import './styles/global.scss';
 
 export function App() {
-
-  // throw new Error('Ops, gerei um erro');
-
-  return <h1>Kesley David</h1>
+  return <RepositoryList />
 }
