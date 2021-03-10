@@ -27,6 +27,12 @@
   yarn init -y
   ```
 
+> Debug 
+
+- React Developer tools
+  - Components
+  - Profile
+
 > React Hooks
 
 - useState [tmp]
