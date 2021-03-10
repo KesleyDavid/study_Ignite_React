@@ -35,3 +35,10 @@
   ```jsx
   ['1','2','3'].map( item => <Test key={unique} item={item} />)
   ```
+
+- .filter
+  ```jsx
+  // Percorre array e retorna um array que recebe true na condição
+  const filteredTasks = tasks.filter(task => task.id !== id);
+  // Retornará array que o id da "task" for diferente do "id" informado 
+  ```
