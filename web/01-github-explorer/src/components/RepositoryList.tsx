@@ -3,8 +3,15 @@ import { RepositoryItem } from "./RepositoryItem";
 
 import '../styles/repositories.scss'; 
 
+interface Repository {
+  name: string,
+  description: string,
+  html_url: string,
+}
+
 export function RepositoryList() {
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repository[]>([]);
+  // State irá armazenar um array de repositories
 
   useEffect(() => {
     fetch('https://api.github.com/orgs/rocketseat/repos')

@@ -10,6 +10,17 @@ Adiciona tipagem estática
 Sempre utilizado em desenvolvimento, em PRODUÇÃO, é compilado em javascrip 
 Não necessário tipar todas variaveis 
 
+#### Types
+
+- any  
+  Qualquer valor
+- never  
+  Não utilizar
+
+#### Informations
+
+- Adicionar tipos apenas das informações que será utilizada no componente, e não de toda a resposta da API
+
 Exemplos:
   ```jsx
   // Javascript
