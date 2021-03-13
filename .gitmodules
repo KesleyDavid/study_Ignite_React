@@ -1,3 +1,6 @@
 [submodule "study_Ignite_React_Challenges"]
 	path = study_Ignite_React_Challenges
 	url = git@github.com:KesleyDavid/study_Ignite_React_Challenges.git
+[submodule "study_Ignite_React_Web"]
+	path = study_Ignite_React_Web
+	url = git@github.com:KesleyDavid/study_Ignite_React_Web.git
