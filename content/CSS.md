@@ -22,3 +22,29 @@
         <title>Title App</title>
       </head>
     ```
+
+> Styled-components  
+
+- Filter  
+  ```scss
+    div {
+      // ...css
+
+      // Efeito de Transição
+      transition: filter 0.2s;
+
+      button {
+        color: #FFFFFF;
+        background: var(--blue-light);
+
+        &:hover {
+          // Diferentes filtros no css
+
+          // Blur (borrado)
+          filter: blur(5px);
+          // Escuresse um pouco
+          filter: brightness(0.9);
+        }
+      }
+    };
+  ```
