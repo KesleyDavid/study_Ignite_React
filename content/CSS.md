@@ -25,6 +25,11 @@
 
 > Styled-components  
 
+- Strong  
+  Por padrão vem com display inline, e margin-top não funciona  
+
+> Styled-components  
+
 - Filter  
   ```scss
     div {
@@ -48,3 +53,4 @@
       }
     };
   ```
+
