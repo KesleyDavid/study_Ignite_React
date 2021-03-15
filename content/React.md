@@ -157,3 +157,9 @@
     // Similar => ./src/index.jsx
   }
   ```
+
+
+> API Fake    
+
+- Json Server
+- MirajeJS
