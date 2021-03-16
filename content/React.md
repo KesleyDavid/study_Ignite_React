@@ -49,7 +49,9 @@
       import { App as Batata } from './App';
       render() => <Batata />;
     ```
-- Propriedades [tmp]
+- Propriedades [tmp]  
+  Informação compartilhada entre dois ou mais componentes  
+  - Sempre passada de PAI para FILHO  
 - Imutabilidade  
   Uma variavel nunca pode ter seu valor alterado  
   Sempre irá receber um novo valor
