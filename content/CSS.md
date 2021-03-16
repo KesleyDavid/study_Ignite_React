@@ -46,7 +46,8 @@
           // Diferentes filtros no css
 
           // Blur (borrado)
-          filter: blur(5px);
+          // filter: blur(5px);
+          
           // Escuresse um pouco
           filter: brightness(0.9);
         }
@@ -54,3 +55,31 @@
     };
   ```
 
+- Placeholder  
+  ```scss
+    input {
+      // ...css  
+      &::placeholder {
+        // Seletor placeholder
+      }
+
+    }
+  ```
+
+- Seletor:  
+  ```scss
+    input {
+      // ...css  
+      & + input {
+      // Todo input que tiver um input antes dele
+      }
+
+    }
+  ```
+
+- Seletor:  
+  ```scss
+    button[type="submit"] {
+    // Button do tipo submit
+    }
+  ```
