@@ -169,6 +169,27 @@
   }
   ```
 
+- **Intl** - Formatação de Preços
+  ```jsx
+  // Nativo dos navegadores
+  <td className={transaction.type}>
+    {new Intl.NumberFormat('pt-BR', {
+      style: 'currency', // formato moeda
+      currency: 'BRL', // moeda brasileira
+    }).format(transaction.amount)}
+  </td>
+  ```
+
+- **Intl** - Formatação de Datas
+  ```jsx
+  // Nativo dos navegadores
+  <td>
+    {new Intl.DateTimeFormat('pt-BR').format(
+      new Date(transaction.createdAt)
+    )}  
+  </td>
+  ```
+
 > API Fake    
 
 - Json Server
