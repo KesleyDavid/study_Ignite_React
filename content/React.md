@@ -160,6 +160,14 @@
   }
   ```
 
+- Prevenir refresh em form após "submit"
+  ```jsx
+  function handleCreateNewTransaction(event: FormEvent) {
+    // event do tipo FormEvent
+    // Prevenir que após o submit faz refresh na pagina
+    event.preventDefault();
+  }
+  ```
 
 > API Fake    
 
