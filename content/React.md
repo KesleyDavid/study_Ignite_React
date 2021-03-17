@@ -66,6 +66,15 @@
     // Sempre se cria um novo espaço na memória com novo conteudo
     usuarios = [...usuarios, 'ferreira'];
   ```
+- Prop drilling  
+  Quando uma propriedade é repassada entre varios componentes aninhados  
+  Componente 1 => Componente 2 => Componente 3 => ...  
+- Context (Contexto)  
+  Compartilhamento de estado entre varios componentes, independente de onde estejam  
+- 2 Principais maneiras de compartilhar estado entre componentes:  
+  - 1: Repassando o estado para componente PAI e repassando para os FILHOS como propriedades  
+  - 2: Utilizando conextos  
+
 > Novo Projeto  
 
 - Criar package.json
