@@ -66,3 +66,49 @@ Exemplos:
   });
   // Response Success
   ```
+
+#### Funcionalidades
+
+- "Herança de tipos - TODAS propriedades MENOS algumas
+  ```jsx
+  interface Transaction {
+    id: number;
+    title: string;
+    amount: number;
+    type: string;
+    category: string;
+    createdAt: string;
+  }
+
+  // interface TransactionInput {
+  //   title: string;
+  //   amount: number;
+  //   type: string;
+  //   category: string;
+  // }
+
+  type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
+  // Obtem todos os parametros
+  // Retorna MENOS os informados
+  ```
+- "Herança de tipos - APENAS as propriedades MENCIONADAS
+  ```jsx
+  interface Transaction {
+    id: number;
+    title: string;
+    amount: number;
+    type: string;
+    category: string;
+    createdAt: string;
+  }
+
+  // interface TransactionInput {
+  //   title: string;
+  //   amount: number;
+  //   type: string;
+  //   category: string;
+  // }
+
+  type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>;
+  // APENAS as propriedades MENCIONADAS
+  ```
