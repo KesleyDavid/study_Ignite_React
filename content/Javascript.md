@@ -43,3 +43,15 @@
   const filteredTasks = tasks.filter(task => task.id !== id);
   // Retornará array que o id da "task" for diferente do "id" informado 
   ```
+
+- .reduce (somando valor)
+  ```jsx
+  // Percorre array  e calcular um total
+  const totalDeposits = transactions.reduce((acc, transaction) => { //acc => acumulado
+    if (transaction.type === 'deposit') {
+      return acc + transaction.amount;
+    }
+    // SE não
+    return acc;
+  }, 0) // 0 => Valor inicial
+  ```
