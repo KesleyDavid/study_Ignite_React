@@ -71,6 +71,28 @@
   Componente 1 => Componente 2 => Componente 3 => ...  
 - Context (Contexto)  
   Compartilhamento de estado entre varios componentes, independente de onde estejam  
+  ```jsx
+    // TransactionsContext.ts
+    import { createContext } from 'react';
+    export const TransactionsContext = createContext([]); // Inicial
+
+    // App.jsx
+    <TransactionsContext.Provider value={[]}> // Atual
+      <Header onOpenModalNewTransaction={handleOpenModalNewTransaction} />
+      <Dashboard />
+      <ModalNewTransaction 
+        isOpen={isModalNewTransaction}
+        onRequestClose={handleCloseModalNewTransaction} 
+      />
+      <GlobalStyle />
+    </TransactionsContext.Provider>
+
+    // Summary.jsx
+    const data = useContext(TransactionsContext);
+    console.log(data);
+  ```
+  Como o **context** está no App, todos os componentes FILHOS podem acessar as informações  
+
 - 2 Principais maneiras de compartilhar estado entre componentes:  
   - 1: Repassando o estado para componente PAI e repassando para os FILHOS como propriedades  
   - 2: Utilizando conextos  
