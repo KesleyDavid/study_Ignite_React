@@ -7,7 +7,7 @@ Javascript tem tipadem dinamica, podemos alterar o tipo no decorrer do código
 
 ### Typescript
 Adiciona tipagem estática
-Sempre utilizado em desenvolvimento, em PRODUÇÃO, é compilado em javascrip 
+Sempre utilizado em desenvolvimento, em PRODUÇÃO, é compilado em javascript 
 Não necessário tipar todas variaveis 
 
 #### Types
@@ -16,6 +16,8 @@ Não necessário tipar todas variaveis
   Qualquer valor
 - never  
   Não utilizar
+- ReactNode  
+  Aceita qualquer valor valido do react  
 
 #### Informations
 
