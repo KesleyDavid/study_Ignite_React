@@ -4,3 +4,6 @@
 [submodule "study_Ignite_React_Web"]
 	path = study_Ignite_React_Web
 	url = git@github.com:KesleyDavid/study_Ignite_React_Web.git
+[submodule "study_Ignite_React_Documentation"]
+	path = study_Ignite_React_Documentation
+	url = git@github.com:KesleyDavid/study_Ignite_React_Documentation.git
